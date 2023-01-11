@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2906721353243540835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842854, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_Name
+      value: Locomotive
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842857, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_Size.x
+      value: 0.93957686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842857, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.03560257
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842859, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2046518027, guid: ba574b028c8c0934a8e5df6ba50ba26c, type: 3}
+    - target: {fileID: 4662796101532842859, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+--- !u!1 &7557932918357575173 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4662796101532842854, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+  m_PrefabInstance: {fileID: 2906721353243540835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &637841981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557932918357575173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7e2ddfe606ce8243a2bf9293c258278, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_maxHP:
+    m_constValue: 21
+    m_floatVariable: {fileID: 0}
+    isConstant: 1
+  m_currentHP:
+    m_constValue: 21
+    m_floatVariable: {fileID: 11400000, guid: 4c34d5f543a7e6643877339db14c1773, type: 2}
+    isConstant: 0
+  _previousWagon: {fileID: 0}
+  _nextWagon: {fileID: 0}
+  m_speed: {fileID: 11400000, guid: b7e7cdef951c2c94591ed3637cb82bf3, type: 2}
+  m_rotationSpeed: {fileID: 11400000, guid: 64978e99739bc2c49a746fd328b276bd, type: 2}

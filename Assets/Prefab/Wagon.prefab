@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1443409977254022160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842853, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842854, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_Name
+      value: Wagon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842854, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842857, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842859, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 599036539, guid: ba574b028c8c0934a8e5df6ba50ba26c, type: 3}
+    - target: {fileID: 4662796101532842859, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4662796101532842859, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+--- !u!1 &6106197076151629686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4662796101532842854, guid: 575af2f95687f5848af7ed2911da69f3, type: 3}
+  m_PrefabInstance: {fileID: 1443409977254022160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-3598156186920000916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6106197076151629686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50462d77b072374e8c42a8104c9f601, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_maxHP:
+    m_constValue: 21
+    m_floatVariable: {fileID: 11400000, guid: 4c34d5f543a7e6643877339db14c1773, type: 2}
+    isConstant: 0
+  m_currentHP:
+    m_constValue: 21
+    m_floatVariable: {fileID: 11400000, guid: 4c34d5f543a7e6643877339db14c1773, type: 2}
+    isConstant: 0
+  _previousWagon: {fileID: 0}
+  _nextWagon: {fileID: 0}

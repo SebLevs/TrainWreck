@@ -1,0 +1,11 @@
+using UnityEngine;
+
+namespace Reference.Variable
+{
+    [CreateAssetMenu(fileName = "IntReference", menuName = "Scriptable/Reference/Int")]
+    public class IntVariable : ScriptableObject
+    {
+        public int Value;
+    }
+}
+
